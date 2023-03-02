@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hidden {
+    display: none;
+}
+.showBtn:hover {
+    border: solid 1px #abadae;
+}
+
+.pageContainer{
+    background-color: #abadae;
+}
