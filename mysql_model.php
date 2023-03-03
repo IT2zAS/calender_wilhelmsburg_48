@@ -5,10 +5,11 @@ class connect
         const USERNAME = '';
         const DBNAME = "";
         const PASSWORD = "";
+        //Test komment
 
         public function dbConnet( ){
             try {
-                $conn = new PDO("mysql:host=". self::SERVERNAME.";dbname=".self::DBNAME.";charset=utf8mb4", self::USERNAME, self::PASSWORD);
+                $conn = new PDO("mysql:host=". self::SERVERNAME.";dbname=".self::DBNAME.";charset=utf8mb4", self::USERNAME);
                 // set the PDO error mode to exception
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 return  $conn ;
