@@ -5,7 +5,7 @@ class connect
         const USERNAME = 'root';
         const DBNAME = "kalenderwilhelmsburg";
         const PASSWORD = "";
-        //Test komment
+        //Test komment Bashar test 
 
         public function dbConnet( ){
             try {
