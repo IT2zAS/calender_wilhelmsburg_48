@@ -1,9 +1,9 @@
 <?php
 class connect
     {
-        const SERVERNAME = "";
-        const USERNAME = '';
-        const DBNAME = "";
+        const SERVERNAME = "localhost";
+        const USERNAME = 'root';
+        const DBNAME = "kalenderwilhelmsburg";
         const PASSWORD = "";
         //Test komment
 
